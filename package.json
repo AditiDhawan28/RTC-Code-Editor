@@ -1,0 +1,50 @@
+{
+  "name": "codechat",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/avatar": "^2.3.0",
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/layout": "^2.3.1",
+    "@chakra-ui/react": "^2.8.2",
+    "@codemirror/lang-javascript": "^6.2.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@uiw/codemirror-theme-dracula": "^4.22.1",
+    "@uiw/codemirror-theme-tokyo-night": "^4.22.1",
+    "@uiw/react-codemirror": "^4.22.1",
+    "axios": "^1.6.8",
+    "codemirror": "^6.0.1",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "framer-motion": "^11.2.0",
+    "lottie-react": "^2.4.0",
+    "mini-svg-data-uri": "^1.4.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.1",
+    "react-scrollable-feed": "^2.0.2",
+    "socket.io-client": "^4.7.5",
+    "sonner": "^1.4.41",
+    "tailwindcss-animate": "^1.0.7",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.0"
+  }
+}
